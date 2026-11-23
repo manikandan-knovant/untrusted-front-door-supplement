@@ -37,6 +37,19 @@ its content is unchanged.
 `runs.jsonl` rows hold only IDs, settings, tool names, decisions, counts, cost, latency,
 timestamps and status. They contain no model-written text and no packet text.
 
+## Methods documents
+
+Four notes describe how the literature search and the threat catalog were done. They are
+written from the project's private records; where those records are silent, they say
+"not recorded".
+
+| File | What it covers |
+|---|---|
+| [`docs/SEARCH_METHOD.md`](docs/SEARCH_METHOD.md) | Databases searched, dates, search terms, screening criteria, and adjacent work considered and excluded |
+| [`docs/CATALOG_METHOD.md`](docs/CATALOG_METHOD.md) | How candidate threats were generated, added, rejected and revised; the deduplication rule found in the records; the OWASP assignment order; verification steps; three worked entries (T-052, T-005, T-055) |
+| [`docs/ASI_ALTERNATIVES.md`](docs/ASI_ALTERNATIVES.md) | Primary and plausible secondary OWASP class for borderline entries (no inter-rater reliability was measured) |
+| [`docs/STANDARDS_MATRIX.md`](docs/STANDARDS_MATRIX.md) | Each format and free-text element, with supporting source, program dependency, catalog entries and confidence |
+
 ## What is withheld, and why
 
 The studies plant an instruction sentence in otherwise ordinary packets. Publishing those
@@ -133,8 +146,8 @@ model call, and reviewed all results.
 ## Licenses
 
 - **Code** (`*.py`): Apache License 2.0, see [`LICENSE`](LICENSE).
-- **Catalog, designs, figures and results** (`threat_catalog.yaml`, `demo/*.md`, `figures/*.svg`,
-  `figures/*.png`, `demo/results/**`): Creative Commons Attribution 4.0 International
+- **Catalog, designs, figures and results** (`threat_catalog.yaml`, `demo/*.md`, `docs/*.md`,
+  `figures/*.svg`, `figures/*.png`, `demo/results/**`): Creative Commons Attribution 4.0 International
   (CC BY 4.0), see [`LICENSE-docs`](LICENSE-docs).
 
 Copyright 2026 Manikandan Elumalai.
