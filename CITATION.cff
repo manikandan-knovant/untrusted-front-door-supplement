@@ -1,14 +1,13 @@
 cff-version: 1.2.0
 message: "If you use these materials, please cite them as below."
+type: software
 title: "Untrusted at the Front Door: study materials"
-version: 1.0.0
-date-released: 2026-11-23
+version: 1.0.1
+date-released: "2026-11-23"
 authors:
   - family-names: Elumalai
     given-names: Manikandan
     affiliation: Independent Researcher
     orcid: "https://orcid.org/0009-0009-0049-6695"
-    email: manikandan.elumalai2021@gmail.com
-license:
-  - Apache-2.0
-  - CC-BY-4.0
+    email: manikandan@knovant.ai
+license: Apache-2.0
