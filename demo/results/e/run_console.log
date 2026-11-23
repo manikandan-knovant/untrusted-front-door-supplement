@@ -1,0 +1,19 @@
+study E (PREREG_E.md): 800 runs to do; already spent US$0.00; budget US$20.00
+  50 done, 0 errors, spent US$0.25
+  100 done, 0 errors, spent US$0.54
+  150 done, 0 errors, spent US$0.83
+  200 done, 0 errors, spent US$1.18
+  250 done, 0 errors, spent US$1.50
+  300 done, 0 errors, spent US$1.82
+  350 done, 0 errors, spent US$2.08
+  400 done, 0 errors, spent US$2.43
+  450 done, 0 errors, spent US$2.72
+  500 done, 0 errors, spent US$3.01
+  550 done, 0 errors, spent US$3.34
+  600 done, 0 errors, spent US$3.55
+  650 done, 0 errors, spent US$3.95
+  700 done, 0 errors, spent US$4.29
+  750 done, 0 errors, spent US$4.63
+  800 done, 0 errors, spent US$5.03
+finished: 800 runs, 0 errors, 0 skipped by the budget stop, spent US$5.03
+exit 0

@@ -1,0 +1,47 @@
+{
+ "models_returned": [
+  "claude-haiku-5-5 -> claude-haiku-5-5",
+  "claude-sonnet-5-5 -> claude-sonnet-5-5",
+  "gpt-6-luna -> gpt-6-luna",
+  "gpt-6.2-sol -> gpt-6.2-sol"
+ ],
+ "temperature": [
+  1.0
+ ],
+ "temperature_sent": {
+  "gpt-6-luna:True": 800,
+  "gpt-6.2-sol:True": 800,
+  "claude-haiku-5-5:True": 800,
+  "claude-sonnet-5-5:True": 800
+ },
+ "effort": [
+  "medium"
+ ],
+ "max_tokens": [
+  8192
+ ],
+ "runs_ok": 3200,
+ "runs_error": 0,
+ "no_decision_tool_call": 0,
+ "stop_reasons": {
+  "gpt-6-luna:completed": 800,
+  "gpt-6.2-sol:completed": 800,
+  "claude-haiku-5-5:tool_use": 800,
+  "claude-sonnet-5-5:tool_use": 800
+ },
+ "decisions": {
+  "gpt-6-luna:route_to_human_review": 762,
+  "gpt-6.2-sol:route_to_human_review": 800,
+  "claude-haiku-5-5:route_to_human_review": 800,
+  "claude-sonnet-5-5:route_to_human_review": 800,
+  "gpt-6-luna:deny": 38
+ },
+ "multi_decided_before_all_three_documents": {},
+ "multi_model_calls_per_run": {
+  "gpt-6-luna:4": 400,
+  "claude-haiku-5-5:4": 400,
+  "claude-sonnet-5-5:4": 400,
+  "gpt-6.2-sol:4": 400
+ },
+ "total_cost_usd": 12.37
+}

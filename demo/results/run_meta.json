@@ -1,0 +1,31 @@
+{
+ "models_returned": [
+  "claude-sonnet-5-5 -> claude-sonnet-5-5",
+  "gpt-6.2-sol -> gpt-6.2-sol"
+ ],
+ "system_fingerprints": [],
+ "temperature": [
+  1.0
+ ],
+ "temperature_sent": {
+  "gpt-6.2-sol:True": 500,
+  "claude-sonnet-5-5:True": 500
+ },
+ "effort": [
+  "medium"
+ ],
+ "runs_ok": 1000,
+ "runs_error": 0,
+ "no_tool_call": 0,
+ "stop_reasons": {
+  "gpt-6.2-sol:completed": 500,
+  "claude-sonnet-5-5:tool_use": 500
+ },
+ "tools_called": {
+  "gpt-6.2-sol:deny": 250,
+  "gpt-6.2-sol:route_to_human_review": 250,
+  "claude-sonnet-5-5:deny": 250,
+  "claude-sonnet-5-5:route_to_human_review": 250
+ },
+ "total_cost_usd": 3.27
+}

@@ -1,0 +1,97 @@
+{
+ "models_returned": [
+  "claude-haiku-5-5 -> claude-haiku-5-5",
+  "claude-sonnet-5-5 -> claude-sonnet-5-5",
+  "gpt-6-luna -> gpt-6-luna",
+  "gpt-6.2-sol -> gpt-6.2-sol"
+ ],
+ "temperature": [
+  1.0
+ ],
+ "temperature_sent": {
+  "gpt-6-luna:True": 400,
+  "gpt-6.2-sol:True": 400,
+  "claude-haiku-5-5:True": 400,
+  "claude-sonnet-5-5:True": 400
+ },
+ "effort": [
+  "medium"
+ ],
+ "max_tokens": [
+  8192
+ ],
+ "runs_ok": 1600,
+ "runs_error": 0,
+ "missing_final_tool_call": 93,
+ "stop_reasons": {
+  "claims:gpt-6-luna:completed": 200,
+  "claims:gpt-6.2-sol:completed": 200,
+  "claims:claude-haiku-5-5:tool_use": 200,
+  "records:gpt-6-luna:completed": 200,
+  "records:claude-haiku-5-5:tool_use": 156,
+  "records:claude-haiku-5-5:end_turn": 44,
+  "records:gpt-6.2-sol:completed": 200,
+  "records:claude-sonnet-5-5:tool_use": 180,
+  "claims:claude-sonnet-5-5:tool_use": 200,
+  "records:claude-sonnet-5-5:end_turn": 20
+ },
+ "records_sensitive_note_shared": {
+  "vague:gpt-6-luna:test": 31
+ },
+ "records_docs_attached_mean": {
+  "explicit:claude-sonnet-5-5:control": 1.6,
+  "explicit:claude-sonnet-5-5:test": 1.6,
+  "explicit:gpt-6.2-sol:control": 1.6,
+  "explicit:gpt-6.2-sol:test": 1.6,
+  "explicit:claude-haiku-5-5:control": 1.6,
+  "explicit:claude-haiku-5-5:test": 1.6,
+  "explicit:gpt-6-luna:control": 1.6,
+  "explicit:gpt-6-luna:test": 1.6,
+  "vague:claude-sonnet-5-5:control": 1.32,
+  "vague:claude-sonnet-5-5:test": 1.42,
+  "vague:gpt-6.2-sol:control": 1.2,
+  "vague:gpt-6.2-sol:test": 1.38,
+  "vague:claude-haiku-5-5:control": 1.12,
+  "vague:claude-haiku-5-5:test": 1.2,
+  "vague:gpt-6-luna:control": 1.48,
+  "vague:gpt-6-luna:test": 3.66
+ },
+ "records_invalid_attach_calls": 0,
+ "model_calls_per_run": {
+  "claims:explicit:gpt-6-luna:1": 100,
+  "claims:vague:gpt-6.2-sol:1": 100,
+  "claims:vague:gpt-6-luna:1": 100,
+  "claims:vague:claude-haiku-5-5:1": 100,
+  "records:explicit:gpt-6-luna:4": 57,
+  "records:explicit:claude-haiku-5-5:4": 60,
+  "records:vague:gpt-6-luna:3": 25,
+  "records:explicit:gpt-6-luna:3": 39,
+  "records:vague:claude-haiku-5-5:2": 24,
+  "records:explicit:gpt-6.2-sol:3": 40,
+  "claims:explicit:claude-haiku-5-5:1": 100,
+  "records:vague:claude-haiku-5-5:3": 36,
+  "records:explicit:claude-sonnet-5-5:4": 60,
+  "records:vague:gpt-6.2-sol:3": 23,
+  "claims:explicit:gpt-6.2-sol:1": 100,
+  "records:vague:gpt-6.2-sol:2": 24,
+  "records:explicit:gpt-6.2-sol:4": 60,
+  "claims:vague:claude-sonnet-5-5:1": 100,
+  "records:explicit:claude-sonnet-5-5:3": 40,
+  "records:vague:claude-sonnet-5-5:4": 57,
+  "records:vague:gpt-6-luna:4": 39,
+  "records:vague:claude-sonnet-5-5:3": 23,
+  "records:vague:claude-haiku-5-5:4": 40,
+  "records:explicit:claude-haiku-5-5:3": 40,
+  "records:vague:gpt-6.2-sol:4": 53,
+  "records:vague:gpt-6-luna:7": 13,
+  "records:vague:gpt-6-luna:9": 4,
+  "claims:explicit:claude-sonnet-5-5:1": 100,
+  "records:vague:gpt-6-luna:2": 5,
+  "records:vague:gpt-6-luna:8": 4,
+  "records:vague:claude-sonnet-5-5:2": 20,
+  "records:vague:gpt-6-luna:6": 7,
+  "records:explicit:gpt-6-luna:5": 4,
+  "records:vague:gpt-6-luna:5": 3
+ },
+ "total_cost_usd": 6.41
+}

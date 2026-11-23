@@ -1,0 +1,16 @@
+experiment C (PREREG_C.md)
+600 runs to do; already spent US$0.00; budget US$12.00
+  50 done, 0 errors, spent US$0.18
+  100 done, 0 errors, spent US$0.35
+  150 done, 0 errors, spent US$0.53
+  200 done, 0 errors, spent US$0.71
+  250 done, 0 errors, spent US$0.88
+  300 done, 0 errors, spent US$1.06
+  350 done, 0 errors, spent US$1.24
+  400 done, 0 errors, spent US$1.42
+  450 done, 0 errors, spent US$1.58
+  500 done, 0 errors, spent US$1.77
+  550 done, 0 errors, spent US$2.01
+  600 done, 0 errors, spent US$2.26
+finished: 600 runs, 0 errors, 0 skipped by the budget stop, spent US$2.26
+exit 0

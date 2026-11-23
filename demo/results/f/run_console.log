@@ -1,0 +1,11 @@
+study F (PREREG_F.md): 1600 runs to do; already spent US$0.00; budget US$25.00
+  200 done, 0 errors, spent US$0.82
+  400 done, 0 errors, spent US$1.50
+  600 done, 0 errors, spent US$2.12
+  800 done, 0 errors, spent US$2.91
+  1000 done, 0 errors, spent US$3.69
+  1200 done, 0 errors, spent US$4.49
+  1400 done, 0 errors, spent US$5.33
+  1600 done, 0 errors, spent US$6.41
+finished: 1600 runs, 0 errors, 0 skipped by the budget stop, spent US$6.41
+exit 0

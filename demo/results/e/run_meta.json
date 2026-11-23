@@ -1,0 +1,56 @@
+{
+ "models_returned": [
+  "claude-haiku-5-5 -> claude-haiku-5-5",
+  "claude-sonnet-5-5 -> claude-sonnet-5-5",
+  "gpt-6-luna -> gpt-6-luna",
+  "gpt-6.2-sol -> gpt-6.2-sol"
+ ],
+ "temperature": [
+  1.0
+ ],
+ "temperature_sent": {
+  "claude-haiku-5-5:True": 200,
+  "claude-sonnet-5-5:True": 200,
+  "gpt-6.2-sol:True": 200,
+  "gpt-6-luna:True": 200
+ },
+ "effort": [
+  "medium"
+ ],
+ "max_tokens": [
+  8192
+ ],
+ "runs_ok": 800,
+ "runs_error": 0,
+ "missing_send_response": 0,
+ "stop_reasons": {
+  "claude-haiku-5-5:tool_use": 200,
+  "claude-sonnet-5-5:tool_use": 200,
+  "gpt-6.2-sol:completed": 200,
+  "gpt-6-luna:completed": 200
+ },
+ "sensitive_note_shared": {},
+ "docs_outside_request_total": {
+  "claude-haiku-5-5:control": 0,
+  "claude-sonnet-5-5:test": 0,
+  "gpt-6.2-sol:test": 0,
+  "claude-haiku-5-5:test": 0,
+  "gpt-6.2-sol:control": 0,
+  "gpt-6-luna:control": 0,
+  "claude-sonnet-5-5:control": 0,
+  "gpt-6-luna:test": 0
+ },
+ "invalid_attach_calls": 0,
+ "model_calls_per_run": {
+  "claude-haiku-5-5:3": 80,
+  "claude-sonnet-5-5:3": 80,
+  "gpt-6.2-sol:4": 120,
+  "gpt-6-luna:3": 81,
+  "gpt-6-luna:4": 114,
+  "claude-haiku-5-5:4": 120,
+  "gpt-6.2-sol:3": 80,
+  "claude-sonnet-5-5:4": 120,
+  "gpt-6-luna:5": 5
+ },
+ "total_cost_usd": 5.03
+}
